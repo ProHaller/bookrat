@@ -8,22 +8,8 @@ A terminal UI that binds a folder of MP3 parts into one clean, chaptered
 **M4B audiobook**: metadata detected and editable, chapters preserved, audio
 quality respected.
 
-```
-┌──────────────────────────────────┐┌ Choose an audiobook folder · ~/Audiobooks ────────────┐
-│     __           __              ││../                                                    │
-│    /  \.-"""""-./  \             ││Dune/                              ♪ 46 audio files    │
-│    \    -     -    /             ││Foundation/                        ♪ 2 discs           │
-│     |  o     o    |              ││Series/                            3 folders           │
-│     \ =  ._Y_.  = /              ││                                                       │
-│      '-.._____..-'               ││                                                       │
-│    ____/   |   \____      _      ││                                                       │
-│    | ~~~~~ | ~~~~~ |     ( )     ││                                                       │
-│    | ~~~~  | ~~~~  |      \ \    ││                                                       │
-│    | ~~~~~ | ~~~~~ |       ) )   ││                                                       │
-│    '-------'-------'~~~~--' /    ││                                                       │
-│           b o o k r a t          ││                                                       │
-└──────────────────────────────────┘└───────────────────────────────────────────────────────┘
-```
+<img width="1512" height="913" alt="Screenshot 2026-11-15 at 13 48 42" src="https://github.com/user-attachments/assets/40ead36a-a65c-487f-8e10-2ca88f5d16ce" />
+
 
 ## A vibe-coded project
 
@@ -124,6 +110,8 @@ bookrat ~/Audiobooks/Dune --no-tui -o ~/Books/  # ...into another folder
 | `-e, --encoder <aac_at\|libfdk_aac\|aac>` | Override the encoder. |
 | `-j, --jobs <N>` | Conversions to run at once (default: half the CPU cores, at most 4). |
 | `--no-tui` | Bind immediately with the detected settings and print progress. |
+
+<img width="1512" height="913" alt="Screenshot 2026-11-15 at 13 49 36" src="https://github.com/user-attachments/assets/5e0e576b-34e1-4761-adac-b8384fe36489" />
 
 ### Keys
 
