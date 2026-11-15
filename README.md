@@ -2,18 +2,18 @@
 
 [![CI](https://github.com/ProHaller/bookrat/actions/workflows/ci.yml/badge.svg)](https://github.com/ProHaller/bookrat/actions/workflows/ci.yml)
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](#license)
-[![0RWX: AI made](https://0rwx.com/static/AI-X-dark.png)](https://0rwx.com/)
+[![AI:X EXECUTE](https://img.shields.io/badge/AI-EXECUTE-grey?style=flat&logoSize=auto&labelColor=13171f)](https://0rwx.com)
+
 
 A terminal UI that binds a folder of MP3 parts into one clean, chaptered
 **M4B audiobook**: metadata detected and editable, chapters preserved, audio
 quality respected.
 
 <img width="1512" height="913" alt="Screenshot 2026-11-15 at 13 48 42" src="https://github.com/user-attachments/assets/40ead36a-a65c-487f-8e10-2ca88f5d16ce" />
+<img width="1512" height="913" alt="Screenshot 2026-11-15 at 13 49 36" src="https://github.com/user-attachments/assets/5e0e576b-34e1-4761-adac-b8384fe36489" />
 
 
-## A vibe-coded project
-
-[![0RWX: AI made](https://0rwx.com/static/AI-X-dark.png)](https://0rwx.com/)
+## A vibe-coded project <img src="https://github.com/NamtaoProductions/0rwx.com/raw/main/static/AI-X-light.svg" alt="AI:X EXECUTE" width="20" height="20">
 
 bookrat is **vibed**. On the [0RWX framework](https://0rwx.com/) scale it is
 level **X (EXECUTE), "AI made"**: the code was written by an AI coding
@@ -110,8 +110,6 @@ bookrat ~/Audiobooks/Dune --no-tui -o ~/Books/  # ...into another folder
 | `-e, --encoder <aac_at\|libfdk_aac\|aac>` | Override the encoder. |
 | `-j, --jobs <N>` | Conversions to run at once (default: half the CPU cores, at most 4). |
 | `--no-tui` | Bind immediately with the detected settings and print progress. |
-
-<img width="1512" height="913" alt="Screenshot 2026-11-15 at 13 49 36" src="https://github.com/user-attachments/assets/5e0e576b-34e1-4761-adac-b8384fe36489" />
 
 ### Keys
 
