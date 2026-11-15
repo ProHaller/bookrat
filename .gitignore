@@ -1,0 +1,16 @@
+/target
+
+# Local audiobooks used for manual testing; often huge and copyrighted.
+/test_assets/
+/assets/
+
+# Bound output and leftovers from interrupted binds
+*.m4b
+*.m4b.part
+.bookrat-*
+
+# OS / editor / VCS noise
+.DS_Store
+.idea/
+.vscode/
+.jj/
